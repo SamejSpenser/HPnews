@@ -1,14 +1,3 @@
----
-title:    Ep. VII - O Terapeuta  
-author:   Luke Fouyer  
-date:     December 11, 2017  
-update:   December 11, 2017  
-tags:     [áudio drama, hipnose, hipnoterapeuta, hipnoterapia, hipnotismo, podcast, Samej Spenser, Samej, Spenser, terapeuta, terapia, férias, audiodrama,]  
-abstract: Pauta para gravação do episódio sete do podcast “Terapeuta”.  
-link:     http://telegra.ph/titulo-texto-MM-DD  
-lang:     pt-BR  
----
-
 <!-- EP. VII - O TERAPEUTA ~ CRIADO/PUBLICADO EM 2017/12/11 ~ ATUALIZADO EM 2017/12/11 -->
 
 <center>
