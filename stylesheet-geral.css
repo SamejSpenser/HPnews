@@ -1,12 +1,10 @@
-/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2017/12/23
-LINK NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
-LINK NO GITHUB: "https://github.com/SamejSpenser/HPnews/blob/master/stylesheet-geral.css" */
+/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2017/12/27
+
+- LINK NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
+
+- LINK NO GITHUB: "https://github.com/SamejSpenser/HPnews/blob/master/stylesheet-geral.css" */
 
 /* FONTE ARCHITECT'S DAUGHTER */
-body {
-    font-family: "Architects Daughter" !important;
-}
-
 architect {
     font-family: "Architects Daughter" !important;
 }
@@ -319,6 +317,15 @@ small, sup, sub {
 h1, h2 {
     text-align: center !important;
     text-indent: 0em !important;
+}
+
+h3 {
+    text-align: left;
+}
+
+h4 {
+    font-style: italic;
+    text-align: left;
 }
 
 /* DESCRICAO SEM LINK */
