@@ -1,4 +1,4 @@
-/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2017/12/27
+/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2019/07/17
 
 - LINK NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
 
@@ -172,7 +172,7 @@ Geralmente utilizado da seguinte forma:
 
 /* CLASS P/ ALINHAMENTO DE IMAGENS ~ CENTRALIZADO */
 
-.meio, .meio50, .meio45, .meio40, .meio35, .meio30, .meio25, .meio20, .meio15, .meio10 {
+.meio, .meio95, .meio90, .meio85, .meio80, .meio75, .meio70, .meio65, .meio60, .meio55, .meio50, .meio45, .meio40, .meio35, .meio30, .meio25, .meio20, .meio15, .meio10 {
     display: block;
     margin: auto;
     max-height: auto !important;
@@ -180,6 +180,38 @@ Geralmente utilizado da seguinte forma:
     padding: 5px;
     text-align: center !important;
     text-indent: 0 !important;
+}
+
+.meio90 {
+    max-width: 90% !important;
+}
+
+.meio85 {
+    max-width: 85% !important;
+}
+
+.meio80 {
+    max-width: 80% !important;
+}
+
+.meio75 {
+    max-width: 75% !important;
+}
+
+.meio70 {
+    max-width: 70% !important;
+}
+
+.meio65 {
+    max-width: 65% !important;
+}
+
+.meio60 {
+    max-width: 60% !important;
+}
+
+.meio55 {
+    max-width: 55% !important;
 }
 
 .meio50 {
@@ -362,3 +394,30 @@ abbr, .temdes {
     column-gap: 15px;
     column-rule: 2px solid #3E85C6;
 }
+
+
+/* YOUTUBE RESPONSIVE CSS */
+
+.ss-responsive-embed {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ss-responsive-embed iframe, .ss-responsive-embed object, .ss-responsive-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.ss-responsive-embed, .ss-responsive-embed.ss-responsive-embed-youtube, .ss-responsive-embed.ss-responsive-embed-wistia, .ss-responsive-embed.ss-responsive-embed-vimeo {
+    padding-bottom: 56.25%;
+}
+
+
