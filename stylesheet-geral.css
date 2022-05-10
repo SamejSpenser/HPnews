@@ -1,6 +1,8 @@
-/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2020/12/24
+/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2022/05/10
 
-- LINK NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
+- LINK ANTIGO NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
+
+- LINK NOVO NO DROPBOX: https://www.dropbox.com/s/7acsnogog4njf2o/stylesheet-geral.css
 
 - LINK NO GITHUB: "https://github.com/SamejSpenser/HPnews/blob/master/stylesheet-geral.css" */
 
@@ -423,4 +425,40 @@ abbr, temdes {
     width: 40% !important;
     text-align: right !important;
 }
+
+/* LINHAS HORIZONTAIS PERSONALIZADAS */
+
+/* Glyph, by Harry Roberts 
+
+SOURCE: https://css-tricks.com/simple-styles-for-horizontal-rules/
+
+*/
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 
