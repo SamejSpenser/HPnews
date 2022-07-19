@@ -479,3 +479,15 @@ https://t.me/obsidianbr/846
 
 */
 
+/* MARKDOWN ATTRIBUTES FOR OBSIDIAN
+https://github.com/valentine195/obsidian-markdown-attributes
+
+Fonte monoespaçada no highlight. Utiliza-se desta forma:
+
+==I'm highlighted{ .mono }==
+*/
+
+.mono {
+    font-family: "JetBrains Mono", monospace !important;
+}
+
