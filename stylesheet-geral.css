@@ -1,4 +1,4 @@
-/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2022/06/10
+/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2022/07/19
 
 - LINK ANTIGO NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
 
@@ -490,4 +490,6 @@ Fonte monoespaçada no highlight. Utiliza-se desta forma:
 .mono {
     font-family: "JetBrains Mono", monospace !important;
 }
+
+
 
