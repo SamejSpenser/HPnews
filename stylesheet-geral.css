@@ -1,4 +1,4 @@
-/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2022/07/19
+/* CSS GENERICO PARA ARQUIVOS MARKDOWN ~ ATUALIZADO EM 2025/01/18
 
 - LINK ANTIGO NO DROPBOX: "https://www.dropbox.com/s/migjxzkp82d3fue/stylesheet-geral.css" 
 
@@ -14,6 +14,8 @@ architect {
 .architect {
     font-family: "Architects Daughter", cursive !important;
 }
+
+/* PRIMEIRA LETRA MAIOR NO PRIMEIRO PARÁGRAFO */
 
 .capitular {
     float: left !important;
@@ -171,7 +173,7 @@ Geralmente utilizado da seguinte forma:
 }
 
 /* CLASS P/ ALINHAMENTO DE IMAGENS ~ CENTRALIZADO */
-.meio, .meio95, .meio90, .meio85, .meio80, .meio75, .meio70, .meio65, .meio60, .meio55, .meio50, .meio45, .meio40, .meio35, .meio30, .meio25, .meio20, .meio15, .meio10 {
+.meio, .meio90, .meio85, .meio80, .meio75, .meio70, .meio65, .meio60, .meio55, .meio50, .meio45, .meio40, .meio35, .meio30, .meio25, .meio20, .meio15, .meio10 {
     display: block;
     margin: auto;
     max-height: auto !important;
@@ -367,7 +369,7 @@ abbr, temdes {
 .duascol {
     -moz-column-count: 2;
     -moz-column-gap: 10px;
-    -moz-column-rule: 2px solid #3E85C6;
+    /* -moz-column-rule: 2px solid #3E85C6; */
     -webkit-column-count: 2;
     -webkit-column-gap: 10px;
     -webkit-column-rule: 2px solid #3E85C6;
@@ -380,7 +382,7 @@ abbr, temdes {
 .trescol {
     -moz-column-count: 3;
     -moz-column-gap: 10px;
-    -moz-column-rule: 2px solid #3E85C6;
+    /* -moz-column-rule: 2px solid #3E85C6; */
     -webkit-column-count: 3;
     -webkit-column-gap: 10px;
     -webkit-column-rule: 2px solid #3E85C6;
@@ -485,11 +487,37 @@ https://github.com/valentine195/obsidian-markdown-attributes
 Fonte monoespaçada no highlight. Utiliza-se desta forma:
 
 ==I'm highlighted{ .mono }==
-*/
 
 .mono {
     font-family: "JetBrains Mono", monospace !important;
 }
 
+.visao-geral {
+    max-height: 169px !important;
+    max-width: 300px !important;
+}
+*/
+
+/* CORES PARA MARCAÇÃO DA BÍBLIA
+.amarelo {
+    color: #ECDF54;
+}
+
+.azul {
+    color: #54A2EC;
+}
+
+.purpura {
+    color: #8554EC;
+}
+
+.verde {
+    color: #54EC6A;
+}
+
+.vermelho {
+    color: #EC545F;
+}
+*/
 
 
